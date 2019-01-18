@@ -20,4 +20,14 @@ export class HomePage {
       .then(uri => console.log(uri))
       .catch(err => console.log('Error', err));
   }
+
+  pickFileNext() {
+    (<any>window).plugins.mediapicker.getAudio(
+      function success(data) {
+        console.log(JSON.stringify(data));
+      },
+      function error(e) {
+        console.log(e);
+      }, false, true, 'title');
+  }
 }
