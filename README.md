@@ -6,7 +6,7 @@ git clone https://github.com/TrueOleg/ionic4-test.git
 ```
 ### Prerequisites
 ```
-ionic 3.0.0
+ionic 3.9.2
 ```
 
 ```
